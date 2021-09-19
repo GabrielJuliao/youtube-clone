@@ -1,0 +1,40 @@
+#nav-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  padding-top: 65px;
+  width: 70px;
+  height: 100vh;
+  border: thin solid black;
+}
+
+#menu-container {
+  /* border: thin solid black; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-btn {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* padding: 5px; */
+  /* border: thin solid black; */
+}
+
+
+.menu-btn > img {
+  width: 24px;
+  height: 24px;
+  /* border: thin solid black; */
+}
+
+.menu-btn > p {
+  font-size: 10px;
+}

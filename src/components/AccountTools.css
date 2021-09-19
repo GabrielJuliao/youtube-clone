@@ -1,0 +1,36 @@
+#account-tools {
+  width: 100%;
+  max-width: 350px;
+  margin-right: 40px;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+
+  /* border: thin black solid; */
+}
+.account-tool {
+  width: 40px;
+  height: 40px;
+  margin: 0 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.account-tool > img {
+  width: 24px;
+  height: 24px;
+}
+
+#account-icon {
+  width: 32px;
+  height: 32px;
+  background-color: #5d4038;
+  border-radius: 50%;
+  border: thin solid #065fd4;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

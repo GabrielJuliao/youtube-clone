@@ -1,0 +1,23 @@
+.video-card{
+    margin: 5px;
+    border: thin solid black;
+}
+.video-info{
+    display: flex;
+}
+.video-info > *{
+    margin: 5px;
+    border: thin solid black;
+    text-align: left;
+}
+
+.channel-profile-pic{
+    border-radius: 50%;
+}
+
+.video-card-title{
+    font-weight: bold;
+    /* font-size: 1.4rem; */
+    line-height: 2rem;
+    max-height: 4rem;
+}
