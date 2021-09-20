@@ -1,4 +1,5 @@
 import "../components/NavMenu.css";
+import burgerMenu from "../images/hamburger-menu.svg"
 import homeIcon from "../images/home.svg";
 import exploreIcon from "../images/explore.svg";
 import subsIcon from "../images/subscriptions.svg";
@@ -6,6 +7,7 @@ import libraryIcon from "../images/library.svg";
 export default function navMenu() {
   return (
     <section id="nav-menu">
+      <img id="yt-burger-menu" src={burgerMenu} alt="" />
       <div id="menu-container">
         <div className="menu-btn">
           <img src={homeIcon} alt="" />

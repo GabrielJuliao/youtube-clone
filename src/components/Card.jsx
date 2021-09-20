@@ -1,18 +1,33 @@
-import '../components/Card.css';
+import "../components/Card.css";
+
 export default function card(props) {
+  const video = props.video;
   return (
     <div className="video-card">
-      <img className="thumbnail" src="https://picsum.photos/320/180" width="270" height="150" alt="" />
+      <div className="video-preview">
+        <img
+          className="thumbnail"
+          src={video.thumbnail}
+          width="310"
+          height="170"
+          alt=""
+        />
+        <p className="video-duration">{video.duration}</p>
+      </div>
       <div className="video-info">
         <div className="card-info-container-l">
-          <img className="channel-profile-pic" src="https://picsum.photos/36/36" alt="" />
+          <img className="channel-profile-pic" src={video.avatar} alt="" />
         </div>
         <div className="card-info-container-r">
-            <div><p className="video-card-title">Sample Video Title</p></div>
-            <div><a href="change-me">Channel Name</a>&#xf058;</div>
-            <div className="video-card-metadata">
-                <span>845 mi views • 1 day ago </span>
-            </div>
+          <div>
+            <p className="video-card-title">{video.title}</p>
+          </div>
+          <div>
+            <a href="change-me">{video.channelName}</a>
+          </div>
+          <div className="video-card-metadata">
+            <span>{video.metadata}</span>
+          </div>
         </div>
       </div>
     </div>

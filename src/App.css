@@ -1,10 +1,7 @@
-.App {
-  /* display: flex; */
-}
-
 #video-browser {
+  background-color: #F9F9F9;
   display: grid;
-  margin-left: 240px;
+  margin-left: 70px;
   grid-template-columns: auto auto auto auto;
   grid-row-gap: 30px;
   padding: 76px 15px 15px 15px;
